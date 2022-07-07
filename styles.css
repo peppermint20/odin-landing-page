@@ -88,6 +88,7 @@ button {
 .body-container {
     display:flex;
     flex-direction: column;
+    margin-bottom: 40px;
 }
 
 .body-title {
@@ -129,4 +130,69 @@ button {
     display:flex;
     flex: 0;
     flex-direction: column;
+}
+
+.quote-container {
+    display:flex;
+    flex-direction:column;
+    background: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+.quote {
+    display:flex;
+}
+
+.quote-end {
+    margin-left: auto;
+}
+
+.footer {
+    display:flex;
+}
+
+.call-to-action-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    padding: 80px;
+}
+
+.call-to-action {
+    display:flex;
+    background: #3882f6;
+}
+
+.call-to-action-button {
+    color: #3882f6;
+    display:flex;
+
+}
+.call-to-action-text {
+    display:flex;
+    flex-direction: column;
+    border: 5px solid yellow
+}
+#top-text,
+#bottom-text {
+    display:flex;
+}
+
+.footer-container {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background: #1F2937;
+    margin: 0px;
+    padding: 40px;
+}
+
+.footer {
+    color: white;
 }

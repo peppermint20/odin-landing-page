@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    border: 2px solid;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px dotted;
+
+}
+.header .left {
+    justify-content: space-around;
+}
